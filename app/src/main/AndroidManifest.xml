@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doccure">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="Dental Hub"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DoctorService.NewNoteMedicine" />
+        <activity android:name=".DoctorService.MedicineListActivity" />
+        <activity android:name=".database.DoctorsActivity" />
+        <activity android:name=".database.MedicineActivity" />
+        <activity android:name=".database.AvailableSlotsActivity" />
+        <activity android:name=".slotbook.reschedule"/>
+        <activity android:name=".slotbook.appointmentBooking" />
+        <activity android:name=".Home_NavigationActivity" />
+        <activity android:name=".LearnmoreActivity"/>
+        <activity android:name=".doctors.DoctorsAppointment" />
+        <activity android:name=".doctors.DoctorLogin" />
+        <activity android:name=".doctors.DoctorsHomepage" />
+        <activity android:name=".service.ResetPasswordActivity" />
+        <activity android:name=".service.JoinActivity" />
+        <activity android:name=".service.MainActivity" />
+
+        <activity android:name=".slotbook.ContactUsActivity"/>
+        <activity android:name=".service.FirstActivity">
+
+
+
+        <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

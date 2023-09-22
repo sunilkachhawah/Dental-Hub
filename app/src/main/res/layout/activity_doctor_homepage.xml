@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/side_nav_bar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Welcome to Dental Hub"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/doc_sign_out"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_more_vert"
+            android:onClick="showMenu"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/doc1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:background="@drawable/ic_crop_16_9"
+            android:padding="40dp">
+
+            <ImageView
+                android:id="@+id/doc_slots_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:src="@drawable/ic_date_range_black_24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/doc_date_slots"
+                android:textSize="25sp"
+                android:layout_marginStart="50dp"
+                android:hint="Date"
+                android:textColorHint=" #1f618d "
+                android:textColor="#000"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/doc_book_appointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstylepink"
+            android:layout_margin="30dp"
+            android:text="See the Booked Appointments"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:textColor="#fff"/>
+        <ImageView
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:background="@drawable/doc_image_button_background"
+            android:src="@drawable/medicine4" />
+        <Button
+            android:id="@+id/doc_medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/appcolor"
+            android:layout_margin="20dp"
+            android:text="Check Medicine Here"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+</LinearLayout>
