@@ -1,7 +1,7 @@
 # Dental-Hub
 
 contributor : <br />
-&nbsp;&nbsp;&nbsp;&nbsp; [BHAVESH MEHTA]             ]
+&nbsp;&nbsp;&nbsp;&nbsp; [Sunil Kachhawah]             ]
 <br />
 <p><h1> Dentist  Management Application </h1></p>
 
